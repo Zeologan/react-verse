@@ -1,0 +1,37 @@
+.msgForms {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 12px;
+    text-align: start;
+  }
+  
+  .msgForm-contanier {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+  }
+  
+  .msgForms label {
+    width: 80px; /* Adjust width as needed */
+    margin-right: 10px;
+    color: #999;
+  }
+  
+  .msgForms input,
+  .msgForms textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    overflow-y: auto;
+    scrollbar-width: none;
+    resize: none;
+  }
+  
+  .msgForms input:focus,
+  .msgForms textarea:focus {
+    outline-style: none;
+  }

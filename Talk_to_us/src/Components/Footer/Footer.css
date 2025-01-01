@@ -1,0 +1,17 @@
+
+.footer_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .footer_menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+    color: #f261ff;
+    transition: 0.2s;
+    &:hover {
+      color: #ea08ff;
+    }
+  }

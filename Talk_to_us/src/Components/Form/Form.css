@@ -1,0 +1,13 @@
+.contact_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contact_us {
+    width: 1080px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  }

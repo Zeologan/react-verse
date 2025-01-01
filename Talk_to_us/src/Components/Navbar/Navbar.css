@@ -1,0 +1,40 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .menu-bar {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-weight: 400;
+  }
+  .menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+    color: #999;
+    transition: 0.2s;
+    &:hover {
+      color: #555;
+    }
+  }
+  
+  .btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #ea08ff;
+    color: #fff;
+    border: none;
+    transition: 0.2s;
+    &:hover {
+      background-color: #df08df;
+      transform: scale(1.02);
+    }
+  }
+  

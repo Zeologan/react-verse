@@ -1,0 +1,151 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+.menu-bar {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  font-weight: 400;
+}
+.menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  color: #999;
+  transition: 0.2s;
+  &:hover {
+    color: #555;
+  }
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #ea08ff;
+  color: #fff;
+  border: none;
+  transition: 0.2s;
+  &:hover {
+    background-color: #df08df;
+    transform: scale(1.02);
+  }
+}
+
+/* form------------- */
+
+.contact_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact_us {
+  width: 1080px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+/* ContactInfo-------------- */
+
+.contact_info {
+  text-align: left;
+  width: 320px;
+  height: 420px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #d030bb 0%, #c608df 100%);
+  padding: 30px 38px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.clr {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(135deg, #f5f7fa7a 0%, #c3cfe271 100%);
+  right: -30px;
+  object-fit: contain;
+}
+.contact_info .contact_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.size {
+  font-size: 18px;
+}
+/* Form-------------- */
+
+.msgForms {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-size: 12px;
+  text-align: start;
+}
+
+.msgForm-contanier {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.msgForms label {
+  width: 80px; /* Adjust width as needed */
+  margin-right: 10px;
+  color: #999;
+}
+
+.msgForms input,
+.msgForms textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid #999;
+  overflow-y: auto;
+  scrollbar-width: none;
+  resize: none;
+}
+
+.msgForms input:focus,
+.msgForms textarea:focus {
+  outline-style: none;
+}
+
+
+/* Footer  */
+
+
+.footer_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer_menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  color: #f261ff;
+  transition: 0.2s;
+  &:hover {
+    color: #ea08ff;
+  }
+}
