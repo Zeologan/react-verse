@@ -23,8 +23,6 @@ function App() {
             <Card name={'Sayli Deshmukh'} imgP={img4} />
             <Card className="btn" name={'Sartak kokate'} imgP={img5} />
           </div>
-          <button type='button' className='btn'>Follower</button>
-          <button type='button' className='btn'>Follower</button>
         </div>
       </div>
     </>
